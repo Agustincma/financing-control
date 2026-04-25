@@ -39,3 +39,28 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# VSCode
+.vscode/
+
+# Coverage
+coverage/
+
+# Misc
+*.log
+
+# React Native
+android/app/build/
+ios/Pods/
+
+# Others
+*.expo
+
+# Mejoras para ignorar cachés y builds
+metro-cache/
+.expo-shared/
+/build/
+
+# Archivos de entorno
+.env
+.env.*
